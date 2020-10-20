@@ -1,0 +1,14 @@
+{
+    "id": "myjitsu_mweb_Middle_2nd_300x250_article_image",
+    "banner": {
+        "format": [{
+            "w": 300,
+            "h": 250
+        }]
+    },
+    "ext": {
+        "appnexus": {
+            "placementId": 16412283
+        }
+    }
+}

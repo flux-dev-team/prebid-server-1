@@ -1,0 +1,17 @@
+{
+    "id": "6446961-3ple_app_android_pre_inarow-android",
+    "banner": {
+        "format": [
+            {
+                "w": 320,
+                "h": 50
+            }
+        ]
+    },
+    "ext": {
+        "appnexus": {
+            "placementId": 19368689,
+            "use_pmt_rule": true
+        }
+    }
+}

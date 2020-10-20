@@ -1,0 +1,38 @@
+{
+    "id": "some-request-id",
+    "site": {
+        "page": "prebid.org"
+    },
+    "ext": {
+        "prebid": {
+            "targeting": {
+                "pricegranularity": {
+                    "precision": 2,
+                    "ranges": [{
+                        "max": 20.00,
+                        "increment": 0.10
+                    }]
+                }
+            }
+        }
+    },
+    "imp": [
+        {
+            "id": "some-impression-id",
+            "banner": {
+                "format": [{
+                    "w": 300,
+                    "h": 250
+                }, {
+                    "w": 300,
+                    "h": 600
+                }]
+            },
+            "ext": {
+                "appnexus": {
+                    "placementId": 16835422
+                }
+            }
+        }
+    ]
+}
