@@ -1,0 +1,52 @@
+{
+    "id": "193632318-rectangle2-amp",
+    "site": {
+        "page": "hwww.47news.jp"
+    },
+    "ext": {
+        "prebid": {
+            "targeting": {
+                "pricegranularity": {
+                    "precision": 2,
+                    "ranges": [
+                        {
+                            "min": 0,
+                            "max": 400,
+                            "increment": 2
+                        },
+                        {
+                            "min": 400,
+                            "max": 5000,
+                            "increment": 20
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "cur": [
+        "JPY"
+    ],
+    "imp": [
+        {
+            "id": "rectangle2",
+            "banner": {
+                "format": [
+                    {
+                        "w": 300,
+                        "h": 250
+                    }
+                ]
+            },
+            "ext": {
+                "appnexus": {
+                    "placementId": 20197478,
+                    "use_pmt_rule": true
+                },
+                "aja": {
+                    "asi": "drEU9GKMR"
+                }
+            }
+        }
+    ]
+}

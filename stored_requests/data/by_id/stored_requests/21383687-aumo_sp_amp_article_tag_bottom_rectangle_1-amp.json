@@ -1,0 +1,53 @@
+{
+    "id": "21383687-aumo_sp_amp_article_tag_bottom_rectangle_1-amp",
+    "site": {
+        "page": "aumo.jp"
+    },
+    "ext": {
+        "prebid": {
+            "targeting": {
+                "pricegranularity": {
+                    "precision": 2,
+                    "ranges": [
+                        {
+                            "min": 0,
+                            "max": 400,
+                            "increment": 2
+                        },
+                        {
+                            "min": 400,
+                            "max": 5000,
+                            "increment": 20
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "cur": [
+        "JPY"
+    ],
+    "imp": [
+        {
+            "id": "aumo_sp_amp_article_tag_bottom_rectangle_1",
+            "banner": {
+                "format": [
+                    {
+                        "w": 300,
+                        "h": 250
+                    },
+                    {
+                        "w": 336,
+                        "h": 280
+                    }
+                ]
+            },
+            "ext": {
+                "rtbhouse": {
+                    "publisherId": "f2WVh23hD6W15EaRR8q4",
+                    "region": "prebid-asia"
+                }
+            }
+        }
+    ]
+}

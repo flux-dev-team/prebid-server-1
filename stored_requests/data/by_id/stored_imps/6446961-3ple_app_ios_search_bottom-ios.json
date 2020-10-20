@@ -1,0 +1,17 @@
+{
+    "id": "6446961-3ple_app_ios_search_bottom-ios",
+    "banner": {
+        "format": [
+            {
+                "w": 300,
+                "h": 250
+            }
+        ]
+    },
+    "ext": {
+        "appnexus": {
+            "placementId": 19368707,
+            "use_pmt_rule": true
+        }
+    }
+}

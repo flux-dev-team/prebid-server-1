@@ -1,0 +1,49 @@
+{
+    "id": "21839254442-amp_rec_inarticle-amp",
+    "site": {
+        "page": "dot.asahi.com"
+    },
+    "ext": {
+        "prebid": {
+            "targeting": {
+                "pricegranularity": {
+                    "precision": 2,
+                    "ranges": [
+                        {
+                            "min": 0,
+                            "max": 400,
+                            "increment": 2
+                        },
+                        {
+                            "min": 400,
+                            "max": 5000,
+                            "increment": 20
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "cur": [
+        "JPY"
+    ],
+    "imp": [
+        {
+            "id": "amp_rec_inarticle",
+            "banner": {
+                "format": [
+                    {
+                        "w": 300,
+                        "h": 250
+                    }
+                ]
+            },
+            "ext": {
+                "rtbhouse": {
+                    "publisherId": "f2WVh23hD6W15EaRR8q4",
+                    "region": "prebid-asia"
+                }
+            }
+        }
+    ]
+}

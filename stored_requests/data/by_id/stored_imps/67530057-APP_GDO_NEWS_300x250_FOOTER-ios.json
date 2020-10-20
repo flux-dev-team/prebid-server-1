@@ -1,0 +1,24 @@
+{
+    "id": "67530057-APP_GDO_NEWS_300x250_FOOTER-ios",
+    "banner": {
+        "format": [
+            {
+                "w": 300,
+                "h": 250
+            },
+            {
+                "w": 336,
+                "h": 280
+            }
+        ]
+    },
+    "ext": {
+        "appnexus": {
+            "placementId": 20238487,
+            "use_pmt_rule": true
+        },
+        "aja": {
+            "asi": "wcOnleOMR"
+        }
+    }
+}

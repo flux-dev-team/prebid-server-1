@@ -1,0 +1,17 @@
+{
+    "id": "87493389-App_banner_video-ios",
+    "banner": {
+        "format": [
+            {
+                "w": 300,
+                "h": 250
+            }
+        ]
+    },
+    "ext": {
+        "appnexus": {
+            "placementId": 19368666,
+            "use_pmt_rule": true
+        }
+    }
+}

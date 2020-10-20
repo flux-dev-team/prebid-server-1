@@ -1,0 +1,35 @@
+{
+    "id": "111",
+    "site": {
+        "page": "flux-training.com"
+    },
+    "ext": {
+        "prebid": {
+            "targeting": {
+                "pricegranularity": {
+                    "precision": 2,
+                    "ranges": [{
+                        "max": 20.00,
+                        "increment": 0.10
+                    }]
+                }
+            }
+        }
+    },
+    "imp": [
+        {
+            "id": "div-id",
+            "banner": {
+                "format": [{
+                    "w": 300,
+                    "h": 250
+                }]
+            },
+            "ext": {
+                "appnexus": {
+                    "placementId": 16835422
+                }
+            }
+        }
+    ]
+}

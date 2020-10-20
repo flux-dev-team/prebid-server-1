@@ -1,0 +1,53 @@
+{
+    "id": "myjitsu-02",
+    "site": {
+        "page": "myjitsu.jp"
+    },
+    "ext": {
+        "prebid": {
+            "targeting": {
+                "pricegranularity": {
+                    "precision": 2,
+                    "ranges": [
+                        {
+                            "min": 0,
+                            "max": 400,
+                            "increment": 2
+                        },
+                        {
+                            "min": 400,
+                            "max": 5000,
+                            "increment": 20
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "cur": [
+        "JPY"
+    ],
+    "imp": [
+        {
+            "id": "myjitsu_amp_title_banner_all_403002",
+            "banner": {
+                "format": [
+                    {
+                        "w": 320,
+                        "h": 50
+                    }
+                ]
+            },
+            "ext": {
+                "appnexus": {
+                    "placementId": 17908376,
+                    "use_pmt_rule": true
+                },
+                "rtbhouse": {
+                    "publisherId": "f2WVh23hD6W15EaRR8q4",
+                    "region": "prebid-asia"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "ext": {
+        "prebid": {
+            "targeting": {
+                "pricegranularity": {
+                    "precision": 2,
+                    "ranges": [
+                        {
+                            "min": 0,
+                            "max": 400,
+                            "increment": 2
+                        },
+                        {
+                            "min": 400,
+                            "max": 5000,
+                            "increment": 20
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "cur": [
+        "JPY"
+    ]
+}

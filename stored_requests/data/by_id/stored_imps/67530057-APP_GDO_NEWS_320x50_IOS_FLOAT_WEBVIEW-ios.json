@@ -1,0 +1,20 @@
+{
+    "id": "67530057-APP_GDO_NEWS_320x50_IOS_FLOAT_WEBVIEW-ios",
+    "banner": {
+        "format": [
+            {
+                "w": 320,
+                "h": 50
+            }
+        ]
+    },
+    "ext": {
+        "appnexus": {
+            "placementId": 20238488,
+            "use_pmt_rule": true
+        },
+        "aja": {
+            "asi": "oQ5vleOMg"
+        }
+    }
+}

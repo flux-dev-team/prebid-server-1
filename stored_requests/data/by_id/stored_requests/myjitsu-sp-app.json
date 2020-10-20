@@ -1,0 +1,33 @@
+{
+    "id": "myjitsu-sp-app",
+    "ext": {
+        "prebid": {
+            "targeting": {
+                "pricegranularity": {
+                    "precision": 2,
+                    "ranges": [{
+                        "max": 400.00,
+                        "increment": 2
+                    }]
+                }
+            }
+        }
+    },
+    "cur":["JPY"],
+    "imp": [
+        {
+            "id": "myjitsu_mweb_Middle_2nd_300x250_article_image",
+            "banner": {
+                "format": [{
+                    "w": 300,
+                    "h": 250
+                }]
+            },
+            "ext": {
+                "appnexus": {
+                    "placementId": 16412283
+                }
+            }
+        }
+    ]
+}

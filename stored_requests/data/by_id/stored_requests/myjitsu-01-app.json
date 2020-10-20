@@ -1,0 +1,33 @@
+{
+    "id": "myjitsu-01",
+    "ext": {
+        "prebid": {
+            "targeting": {
+                "pricegranularity": {
+                    "precision": 2,
+                    "ranges": [{
+                        "max": 400.00,
+                        "increment": 2
+                    }]
+                }
+            }
+        }
+    },
+    "cur":["JPY"],
+    "imp": [
+        {
+            "id": "myjitsu_amp_header_banner_all_403001",
+            "banner": {
+                "format": [{
+                    "w": 320,
+                    "h": 50
+                }]
+            },
+            "ext": {
+                "appnexus": {
+                    "placementId": 17908375
+                }
+            }
+        }
+    ]
+}

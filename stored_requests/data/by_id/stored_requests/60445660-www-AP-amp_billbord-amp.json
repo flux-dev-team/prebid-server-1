@@ -1,0 +1,82 @@
+{
+    "id": "60445660-www-AP-amp_billbord-amp",
+    "site": {
+        "page": "www.jiji.com"
+    },
+    "ext": {
+        "prebid": {
+            "targeting": {
+                "pricegranularity": {
+                    "precision": 2,
+                    "ranges": [
+                        {
+                            "min": 0,
+                            "max": 400,
+                            "increment": 2
+                        },
+                        {
+                            "min": 400,
+                            "max": 5000,
+                            "increment": 20
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "cur": [
+        "JPY"
+    ],
+    "imp": [
+        {
+            "id": "www/AP/amp_billbord",
+            "banner": {
+                "format": [
+                    {
+                        "w": 1,
+                        "h": 1
+                    },
+                    {
+                        "w": 300,
+                        "h": 170
+                    },
+                    {
+                        "w": 320,
+                        "h": 80
+                    },
+                    {
+                        "w": 320,
+                        "h": 150
+                    },
+                    {
+                        "w": 320,
+                        "h": 180
+                    },
+                    {
+                        "w": 320,
+                        "h": 200
+                    }
+                ]
+            },
+            "ext": {
+                "appnexus": {
+                    "placementId": 17787613,
+                    "use_pmt_rule": true
+                },
+                "rtbhouse": {
+                    "publisherId": "f2WVh23hD6W15EaRR8q4",
+                    "region": "prebid-asia"
+                },
+                "adgeneration": {
+                    "id": "114407"
+                },
+                "yieldone": {
+                    "placementId": "96138"
+                },
+                "logicad": {
+                    "tid": "Xp4k"
+                }
+            }
+        }
+    ]
+}

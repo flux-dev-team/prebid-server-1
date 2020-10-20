@@ -1,0 +1,14 @@
+{
+    "id": "111",
+    "banner": {
+        "format": [{
+            "w": 300,
+            "h": 250
+        }]
+    },
+    "ext": {
+        "appnexus": {
+            "placementId": 16835422
+        }
+    }
+}

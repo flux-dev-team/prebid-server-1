@@ -1,0 +1,70 @@
+{
+    "id": "60445660-www-AP-amp_1rec_infinity-amp-test",
+    "site": {
+        "page": "www.jiji.com"
+    },
+    "ext": {
+        "prebid": {
+            "targeting": {
+                "pricegranularity": {
+                    "precision": 2,
+                    "ranges": [
+                        {
+                            "min": 0,
+                            "max": 400,
+                            "increment": 2
+                        },
+                        {
+                            "min": 400,
+                            "max": 5000,
+                            "increment": 20
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "cur": [
+        "JPY"
+    ],
+    "imp": [
+        {
+            "id": "www/AP/amp_1rec_infinity",
+            "banner": {
+                "format": [
+                    {
+                        "w": 300,
+                        "h": 250
+                    },
+                    {
+                        "w": 300,
+                        "h": 280
+                    },
+                    {
+                        "w": 336,
+                        "h": 280
+                    }
+                ]
+            },
+            "ext": {
+                "appnexus": {
+                    "placementId": 17787615,
+                    "use_pmt_rule": true
+                },
+                "rtbhouse": {
+                    "publisherId": "f2WVh23hD6W15EaRR8q4",
+                    "region": "prebid-asia"
+                },
+                "adgeneration": {
+                    "id": "114408"
+                },
+                "aja": {
+                    "asi": "bWajfreWR"
+                },
+                "yieldone": {
+                    "placementId": "96140"
+                }
+            }
+        }
+    ]
+}

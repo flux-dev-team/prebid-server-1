@@ -1,0 +1,62 @@
+{
+    "id": "13539712-SP_omise_top_middle_underphoto_1_nativead_spwebrenew_2016_amp-amp-test",
+    "site": {
+        "page": "retty.me"
+    },
+    "ext": {
+        "prebid": {
+            "targeting": {
+                "pricegranularity": {
+                    "precision": 2,
+                    "ranges": [
+                        {
+                            "min": 0,
+                            "max": 400,
+                            "increment": 2
+                        },
+                        {
+                            "min": 400,
+                            "max": 5000,
+                            "increment": 20
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "cur": [
+        "JPY"
+    ],
+    "imp": [
+        {
+            "id": "SP_omise_top_middle_underphoto_1_nativead_spwebrenew_2016_amp",
+            "banner": {
+                "format": [
+                    {
+                        "w": 336,
+                        "h": 280
+                    },
+                    {
+                        "w": 300,
+                        "h": 250
+                    }
+                ]
+            },
+            "ext": {
+                "appnexus": {
+                    "placementId": 19353366,
+                    "use_pmt_rule": true
+                },
+                "openx": {
+                    "unit": "541209801",
+                    "delDomain": "retty-d.openx.net"
+                },
+                "rubicon": {
+                    "accountId": 16856,
+                    "siteId": 341602,
+                    "zoneId": 1802298
+                }
+            }
+        }
+    ]
+}

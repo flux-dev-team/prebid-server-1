@@ -1,0 +1,21 @@
+{
+    "id": "21700507908-AppPrdSearchTop-ios",
+    "banner": {
+        "format": [
+            {
+                "w": 300,
+                "h": 250
+            },
+            {
+                "w": 336,
+                "h": 280
+            }
+        ]
+    },
+    "ext": {
+        "appnexus": {
+            "placementId": 19454767,
+            "use_pmt_rule": true
+        }
+    }
+}
