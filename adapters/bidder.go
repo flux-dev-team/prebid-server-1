@@ -4,6 +4,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"net/http"
+	"os"
 
 	"github.com/mxmCherry/openrtb"
 	"github.com/prebid/prebid-server/errortypes"
@@ -87,6 +88,12 @@ type BidderResponse struct {
 // bidsCapacity allows to set initial Bids array capacity.
 // By default, currency is USD but this behavior might be subject to change.
 func NewBidderResponseWithBidsCapacity(bidsCapacity int) *BidderResponse {
+	if os.Getenv("ENV") == "flux" {
+		return &BidderResponse{
+			Currency: "JPY",
+			Bids:     make([]*TypedBid, 0, bidsCapacity),
+		}
+	}
 	return &BidderResponse{
 		Currency: "USD",
 		Bids:     make([]*TypedBid, 0, bidsCapacity),
