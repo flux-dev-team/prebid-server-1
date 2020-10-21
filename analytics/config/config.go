@@ -7,6 +7,7 @@ import (
 	"github.com/prebid/prebid-server/analytics/filesystem"
 	"github.com/prebid/prebid-server/analytics/pubstack"
 	"github.com/prebid/prebid-server/config"
+	"github.com/prebid/prebid-server/flux"
 )
 
 //Modules that need to be logged to need to be initialized here
@@ -34,6 +35,8 @@ func NewPBSAnalytics(analytics *config.Analytics) analytics.PBSAnalyticsModule {
 			glog.Errorf("Could not initialize PubstackModule: %v", err)
 		}
 	}
+	fluxAnalytics := flux.NewFluxAnalytics()
+	modules = append(modules, fluxAnalytics)
 	return modules
 }
 
