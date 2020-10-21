@@ -18,27 +18,32 @@ func NewFluxAnalytics() *FluxAnalytics {
 	}
 }
 
-func (f FluxAnalytics) LogAuctionObject(vo *analytics.AuctionObject) {
+func (f *FluxAnalytics) LogAuctionObject(vo *analytics.AuctionObject) {
 	f.logging.Info("fluxLog", zap.Any("LogAuctionObject", vo))
 	return
 }
 
-func (f FluxAnalytics) LogVideoObject(vo *analytics.VideoObject) {
+func (f *FluxAnalytics) LogVideoObject(vo *analytics.VideoObject) {
 	f.logging.Info("fluxLog", zap.Any("LogVideoObject", vo))
 	return
 }
 
-func (f FluxAnalytics) LogCookieSyncObject(vo *analytics.CookieSyncObject) {
+func (f *FluxAnalytics) LogCookieSyncObject(vo *analytics.CookieSyncObject) {
 	f.logging.Info("fluxLog", zap.Any("LogCookieSyncObject", vo))
 	return
 }
 
-func (f FluxAnalytics) LogSetUIDObject(vo *analytics.SetUIDObject) {
+func (f *FluxAnalytics) LogSetUIDObject(vo *analytics.SetUIDObject) {
 	f.logging.Info("fluxLog", zap.Any("LogSetUIDObject", vo))
 	return
 }
 
-func (f FluxAnalytics) LogAmpObject(vo *analytics.AmpObject) {
+func (f *FluxAnalytics) LogAmpObject(vo *analytics.AmpObject) {
 	f.logging.Info("fluxLog", zap.Any("LogAmpObject", vo))
+	return
+}
+
+func (f *FluxAnalytics)LogNotificationEventObject(vo * analytics.NotificationEvent) {
+	f.logging.Info("fluxLog", zap.Any("NotificationEvent", vo))
 	return
 }
