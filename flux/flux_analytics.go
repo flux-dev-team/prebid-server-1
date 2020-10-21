@@ -11,7 +11,7 @@ type FluxAnalytics struct {
 }
 
 func NewFluxAnalytics() *FluxAnalytics {
-	fmt.Println("init flux analytics!!")
+	fmt.Println("init NewFluxAnalytics()")
 	logger, _ := zap.NewProduction()
 	return &FluxAnalytics{
 		logging: logger,
@@ -43,7 +43,7 @@ func (f *FluxAnalytics) LogAmpObject(vo *analytics.AmpObject) {
 	return
 }
 
-func (f *FluxAnalytics)LogNotificationEventObject(vo * analytics.NotificationEvent) {
+func (f *FluxAnalytics) LogNotificationEventObject(vo *analytics.NotificationEvent) {
 	f.logging.Info("fluxLog", zap.Any("NotificationEvent", vo))
 	return
 }
