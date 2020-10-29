@@ -36,7 +36,7 @@ func NewPBSAnalytics(analytics *config.Analytics) analytics.PBSAnalyticsModule {
 			glog.Errorf("Could not initialize PubstackModule: %v", err)
 		}
 	}
-	if os.Getenv("ENV") == "prod" {
+	if os.Getenv("ENV") == "flux" {
 		fluxAnalytics := flux.NewFluxAnalytics()
 		modules = append(modules, fluxAnalytics)
 	}
