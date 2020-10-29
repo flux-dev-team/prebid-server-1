@@ -26,6 +26,7 @@ FROM ubuntu:18.04 AS release
 LABEL maintainer="hans.hjort@xandr.com" 
 WORKDIR /usr/local/bin/
 COPY --from=build /app/prebid-server/prebid-server .
+COPY pbs.yaml pbs.yaml
 COPY static static/
 COPY stored_requests/data stored_requests/data
 RUN apt-get update && \
@@ -33,5 +34,6 @@ RUN apt-get update && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 EXPOSE 8000
 EXPOSE 8080
+ENV ENV=flux
 ENTRYPOINT ["/usr/local/bin/prebid-server"]
 CMD ["-v", "1", "-logtostderr"]
